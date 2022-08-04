@@ -20,7 +20,7 @@ body {
   padding: 20px;
   background-color: white;
   display: grid;
-  grid-template-rows: 30px 1fr 30px 20px;
+  grid-template-rows: 30px 1fr 30px 30px;
   grid-gap: 10px;
 }
 
@@ -62,7 +62,6 @@ html {
 .top-bar {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 0 20px;
   background-color: var(--top-color);
   padding: 5px 20px;
   border-top: solid 5px rgba(29,49,58,255);
@@ -73,9 +72,7 @@ html {
   grid-template-columns: repeat(3, auto);
   grid-gap: 20px;
 }
-/* .top-bar > li {
-  display: inline;
-} */
+
 .top-bar nav {
   display: grid;
   align-content: center;
